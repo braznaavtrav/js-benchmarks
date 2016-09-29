@@ -1,0 +1,26 @@
+{
+  "name": "js-benchmarks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "benchmark": "^2.1.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.16.1"
+  },
+  "bin": {
+    "benchmark": "index.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
